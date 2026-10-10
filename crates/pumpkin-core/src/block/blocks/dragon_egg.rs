@@ -16,7 +16,7 @@ pub struct DragonEggBlock;
 
 impl DragonEggBlock {
     // DragonEggBlock.getDelayAfterPlace
-    const DELAY_AFTER_PLACE: u8 = 5;
+    const DELAY_AFTER_PLACE: u32 = 5;
 
     fn teleport(world: &Arc<World>, pos: &BlockPos) {
         for _ in 0..1000 {
